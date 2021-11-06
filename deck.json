@@ -117,7 +117,7 @@
             "__type__": "Note",
             "fields": [
                 "Karte A",
-                "falsch"
+                "richtig"
             ],
             "guid": "Q&(^=5gqV^",
             "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
@@ -140,6 +140,16 @@
                 "falsch"
             ],
             "guid": "cQ,K@.m6I9",
+            "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Karte D",
+                "falsch"
+            ],
+            "guid": "Pbfu*lH|?~",
             "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
             "tags": []
         }
