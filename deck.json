@@ -85,7 +85,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Einfach",
+            "name": "Einfach-e4765",
             "req": [
                 [
                     0,
@@ -127,7 +127,7 @@
             "__type__": "Note",
             "fields": [
                 "Karte B",
-                "falsch"
+                "richtig"
             ],
             "guid": "kT:cea0U^y",
             "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
