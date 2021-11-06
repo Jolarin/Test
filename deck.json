@@ -1,0 +1,147 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "1300f40d-3f10-11ec-aa0e-70bc10750394",
+    "deck_config_uuid": "130168ed-3f10-11ec-ac4a-70bc10750394",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "130168ed-3f10-11ec-ac4a-70bc10750394",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Test",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Karte A",
+                "falsch"
+            ],
+            "guid": "Q&(^=5gqV^",
+            "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Karte B",
+                "falsch"
+            ],
+            "guid": "kT:cea0U^y",
+            "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Karte C",
+                "falsch"
+            ],
+            "guid": "cQ,K@.m6I9",
+            "note_model_uuid": "13018fdb-3f10-11ec-9a8c-70bc10750394",
+            "tags": []
+        }
+    ]
+}
